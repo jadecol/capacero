@@ -50,10 +50,14 @@ export default function Navbar() {
                 </Link>
               )
             })}
-            <Link to="/contacto"
-              className="border border-amber text-amber text-[11px] font-medium tracking-[0.12em] px-4 py-2 hover:bg-amber hover:text-void transition-all duration-200">
+            <a
+              href="https://wa.me/573112621281?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n%20de%20calibraci%C3%B3n%20de%2020%20min%20con%20CAPA%20CERO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-amber text-amber text-[11px] font-medium tracking-[0.12em] px-4 py-2 hover:bg-amber hover:text-void transition-all duration-200 flex items-center gap-1.5"
+            >
               AGENDAR LLAMADA
-            </Link>
+            </a>
           </div>
 
           <button type="button" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={open}
@@ -70,13 +74,19 @@ export default function Navbar() {
           <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}
             className="fixed inset-0 z-40 bg-void pt-[60px] flex flex-col items-center justify-center gap-8">
             {links.map(l => (
-              <Link key={l.to} to={l.to} className="sr text-[36px] font-light text-bone/70 hover:text-bone transition-colors">
+              <Link key={l.to} to={l.to} onClick={() => setOpen(false)} className="sr text-[36px] font-light text-bone/70 hover:text-bone transition-colors">
                 {l.label}
               </Link>
             ))}
-            <Link to="/contacto" className="mt-4 border border-amber text-amber px-8 py-3 text-[12px] tracking-[0.16em]">
+            <a
+              href="https://wa.me/573112621281?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n%20de%20calibraci%C3%B3n%20de%2020%20min%20con%20CAPA%20CERO"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="mt-4 border border-amber text-amber px-8 py-3 text-[12px] tracking-[0.16em] flex items-center gap-2"
+            >
               AGENDAR LLAMADA
-            </Link>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>

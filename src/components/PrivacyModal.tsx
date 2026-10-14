@@ -67,7 +67,7 @@ export default function PrivacyModal({ isOpen, onClose, initialTab = 'datos' }: 
                 </p>
                 <div className="bg-void p-4 border border-rule space-y-2 text-[12px]">
                   <p><strong className="text-bone font-normal">Responsable del Tratamiento:</strong> Julián de Ecozan / CAPA CERO</p>
-                  <p><strong className="text-bone font-normal">Canal de atención y ejercicio de derechos:</strong> alejandrodecozan@gmail.com · Tel: +57 311 262 1281</p>
+                  <p><strong className="text-bone font-normal">Canal de atención y ejercicio de derechos:</strong> contacto@deecozan.com · Tel: +57 311 262 1281</p>
                   <p><strong className="text-bone font-normal">Ubicación operativa:</strong> Ubaté · Bogotá D.C., Colombia</p>
                 </div>
               </section>
@@ -105,7 +105,7 @@ export default function PrivacyModal({ isOpen, onClose, initialTab = 'datos' }: 
                   4. Derechos de los Titulares (Conocer, Actualizar, Rectificar y Suprimir)
                 </div>
                 <p>
-                  Usted tiene derecho a conocer qué datos conservamos, solicitar su actualización, rectificación o eliminación definitiva en cualquier momento escribiendo a <a href="mailto:alejandrodecozan@gmail.com" className="text-amber hover:underline">alejandrodecozan@gmail.com</a>. Las solicitudes se resuelven en un término máximo de 10 días hábiles.
+                  Usted tiene derecho a conocer qué datos conservamos, solicitar su actualización, rectificación o eliminación definitiva en cualquier momento escribiendo a <a href="mailto:contacto@deecozan.com" className="text-amber hover:underline">contacto@deecozan.com</a>. Las solicitudes se resuelven en un término máximo de 10 días hábiles.
                 </p>
               </section>
             </div>

@@ -75,18 +75,20 @@ export default function Footer() {
                 </li>
                 <li className="pt-2 text-[12px] text-bone/70 space-y-1">
                   <a
-                    href="mailto:alejandrodecozan@gmail.com"
+                    href="mailto:contacto@deecozan.com"
                     className="hover:text-amber transition-colors flex items-center gap-1.5"
                   >
                     <Mail size={12} className="text-amber flex-shrink-0" />
-                    <span>alejandrodecozan@gmail.com</span>
+                    <span>contacto@deecozan.com</span>
                   </a>
                   <a
-                    href="tel:+573112621281"
-                    className="hover:text-amber transition-colors flex items-center gap-1.5"
+                    href="https://wa.me/573112621281?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n%20de%20calibraci%C3%B3n%20con%20CAPA%20CERO"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-amber transition-colors flex items-center gap-1.5 text-amber"
                   >
                     <Phone size={12} className="text-amber flex-shrink-0" />
-                    <span>+57 311 262 1281</span>
+                    <span>WhatsApp: +57 311 262 1281</span>
                   </a>
                 </li>
               </ul>
